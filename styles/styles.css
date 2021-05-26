@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(90, 195, 230);
+}
+
+section {
+    width: 90%;
+    margin: 20px auto;
+    padding: 5px 10px;
+}
+
+h1 {
+    padding: 0 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 0 20px;
+    color: white;
+}
+
+span {
+    padding-right: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    background-color: lightgray;
+    color: rgb(87, 87, 87);
+}
+
+.blue-text {
+    color: rgb(90, 195, 230);
+}
+
+.orange-bar {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}
